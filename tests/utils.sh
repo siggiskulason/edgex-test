@@ -7,6 +7,7 @@ fi
 
 snap_install()
 {
+    echo "Installing local snap"
     local the_snap=$1
     local the_channel=$2
     local confinement=$3
