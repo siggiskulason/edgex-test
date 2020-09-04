@@ -1,0 +1,21 @@
+name: Test EdgeXFoundry-Snap
+on: push
+jobs:
+  test-snap:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        repository: siggiskulason/edgex-test
+        ref: master
+    - name: Checkout tests
+      uses: actions/checkout@v2
+      with:
+        repository: https://git.launchpad.net/~checkbox-dev/checkbox-provider-edgex/+git/checkbox-provider-edgex
+        ref: master
+    - name: testing snap install
+      shell: bash 
+      run: |
+        ls -alR
+        
