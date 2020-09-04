@@ -1,5 +1,6 @@
 name: Test EdgeXFoundry-Snap
 on: push
+jobs:
   test-snap:
     runs-on: ubuntu-latest
     steps:
