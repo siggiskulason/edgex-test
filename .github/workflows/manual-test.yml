@@ -14,6 +14,6 @@ jobs:
       run: |
         echo "Running checkbox tests"
         cd tests
-        ./run-checkbox.sh
+        sh ./run-checkbox.sh
         
         
