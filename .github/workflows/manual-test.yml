@@ -13,6 +13,7 @@ jobs:
       shell: bash 
       run: |
         echo "Running checkbox tests"
+        cd tests
         ./run-checkbox.sh
         
         
