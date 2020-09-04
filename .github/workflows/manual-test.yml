@@ -12,7 +12,7 @@ jobs:
     - name: testing snap install
       shell: bash 
       run: |
-        echo "Running checkbox tests"
+        echo "Running checkbox test script"
         cd tests
         sh ./run-checkbox.sh
         
