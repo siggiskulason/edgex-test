@@ -1,9 +1,10 @@
-ls ~/tests/
-mkdir ~/checkbox
-cd ~/checkbox
+pwd
+
+mkdir checkbox
+cd checkbox
 git clone https://git.launchpad.net/~checkbox-dev/checkbox-provider-edgex/+git/checkbox-provider-edgex
 
 # override the utils.sh file so that we install a local snap
-cp ~/tests/utils.sh checkbox-provider-edgex/data/geneva
-cd checkbox-provider-edgex/data/geneva
-sudo ./test-install.sh
+#cp ~/tests/utils.sh checkbox-provider-edgex/data/geneva
+#cd checkbox-provider-edgex/data/geneva
+#sudo ./test-install.sh
