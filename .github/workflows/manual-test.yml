@@ -12,5 +12,6 @@ jobs:
     - name: testing snap install
       shell: bash 
       run: |
+        cd ~/checkbox
         ls -alR
         
