@@ -13,9 +13,7 @@ jobs:
       shell: bash 
       run: |
         pwd
-        ls -alR /home/runner
         echo "Running checkbox test script"
-        # cd tests
-        # sh ./run-checkbox.sh
+        sh /home/runner/work/edgex-test/edgex-test/tests/run-checkbox.sh
         
-        
+      
